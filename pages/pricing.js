@@ -1,13 +1,18 @@
+import dynamic from 'next/dynamic'
 import fetch from 'isomorphic-unfetch'
 import Head from 'next/head'
 import React, {Component} from 'react'
 
 import styled from 'styled-components'
 
-import PagePricing from '../components/PagePricing.js'
+// import PagePricing from '../components/PagePricing.js'
 import Backbone from '../components/Backbone.js'
 import Footer from '../components/Footer.js'
 import Article from '../components/Article'
+
+const PagePricing = dynamic(() => import('../components/PagePricing'), {
+  ssr: false,
+})
 
 class ContactUs extends React.Component {
   constructor(props) {

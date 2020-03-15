@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic'
 import React, {Component} from 'react'
 
 import fetch from 'isomorphic-unfetch'
@@ -5,9 +6,13 @@ import Head from 'next/head'
 
 import styled from 'styled-components'
 
-import PageMain from '../components/PageMain.js'
+// import PageMain from '../components/PageMain'
 import Backbone from '../components/Backbone.js'
 import Footer from '../components/Footer.js'
+
+const PageMain = dynamic(() => import('../components/PageMain'), {
+  ssr: false,
+})
 
 const DELAY = 5
 let idx = 0

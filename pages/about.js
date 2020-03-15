@@ -1,12 +1,17 @@
+import dynamic from 'next/dynamic'
 import fetch from 'isomorphic-unfetch'
 import Head from 'next/head'
 import React, {Component} from 'react'
 
 import styled from 'styled-components'
 
-import PageAbout from '../components/PageAbout.js'
+// import PageAbout from '../components/PageAbout.js'
 import Backbone from '../components/Backbone.js'
 import Footer from '../components/Footer.js'
+
+const PageAbout = dynamic(() => import('../components/PageAbout'), {
+  ssr: false,
+})
 
 class About extends React.Component {
   constructor(props) {
