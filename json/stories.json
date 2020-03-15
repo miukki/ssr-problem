@@ -1,0 +1,31 @@
+{
+  "stories": [
+    {
+      "slogan": "We’re experts in digital<br /> process automation",
+      "subslogan": "We&nbsp;are not career consultants. We’ve&nbsp;been innovating<br />& delivering digital automation solutions for the last 25<br />years at&nbsp;some of&nbsp;the biggest organisations in&nbsp;Australia",
+      "button": null,
+      "id": 0,
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "70%"
+    },
+    {
+      "slogan": "Find out why data is key.<br />Capture. Enrich. Execute.",
+      "subslogan": null,
+      "button": null,
+      "id": 1,
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "70%"
+    },
+    {
+      "slogan": "Start your digital automation<br/>journey with confidence",
+      "subslogan": null,
+      "button": {
+        "title": "Get Started",
+        "url": "/contactus"
+      },
+      "id": 2,
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "70%"
+    }
+  ]
+}

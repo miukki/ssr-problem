@@ -1,0 +1,33 @@
+{
+  "membersTitle": "Meet the team",
+  "members": [
+    {
+      "linkedin": "https://linkedin.com/in/path/to/",
+      "title": "Nitin Shenme",
+      "role": "CEO",
+      "src": "/static/images/nitin.jpg",
+      "description": "I have 10 years experience in manual testing. Will I get a job. Of course you can get a job! Focus on Roles for like Lead QA or Project Manager or even a Product Owner or Product Manager."
+    },
+    {
+      "linkedin": "https://linkedin.com/in/path/to/",
+      "title": "Tommy Posadowski",
+      "role": "COO",
+      "src": "/static/images/tommy.jpg",
+      "description": "I have 10 years experience in manual testing. Will I get a job. Of course you can get a job! Focus on Roles for like Lead QA or Project Manager or even a Product Owner or Product Manager.s"
+    },
+    {
+      "linkedin": "https://linkedin.com/in/path/to/",
+      "title": "Marison Loick",
+      "role": "Operational advisor",
+      "src": "/static/images/maric.jpg",
+      "description": "I have 10 years experience in manual testing. Will I get a job. Of course you can get a job! Focus on Roles for like Lead QA or Project Manager or even a Product Owner or Product Manager."
+    },
+    {
+      "linkedin": "https://linkedin.com/in/path/to/",
+      "title": "Anja Ish",
+      "role": "Developer",
+      "src": "/static/images/anja.jpg",
+      "description": "I have 10 years experience in manual testing. Will I get a job. Of course you can get a job! Focus on Roles for like Lead QA or Project Manager or even a Product Owner or Product Manager."
+    }
+  ]
+}

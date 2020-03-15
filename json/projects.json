@@ -1,0 +1,31 @@
+{
+  "projects": [
+    {
+      "title": "Digital Process Automation Consulting",
+      "id": 0,
+      "description": "<p>Our core offering is&nbsp;to&nbsp;work with you to&nbsp;develop a&nbsp;pragmatic and functional digital transformation strategy with a&nbsp;clear roadmap and delivery plan.<br /></p>",
+      "button": {
+        "title": "Learn more",
+        "url": "/services"
+      }
+    },
+    {
+      "title": "Build a leading Centre Of Excellence",
+      "id": 1,
+      "description": "<p>Set up&nbsp;an&nbsp;digital centre of&nbsp;excellence and innovation practice. Develop internal thought leadership, best practice, internal training programs, and supporting capabilities.</p>",
+      "button": {
+        "title": "Learn more",
+        "url": "/services"
+      }
+    },
+    {
+      "title": "Robotic Automation",
+      "id": 2,
+      "description": "<p>Leverage leading robotic capabilities to&nbsp;develop solutions across applications within you organisation. Start to&nbsp;unlock the true potential of&nbsp;data reuse and rich business rules to&nbsp;fully optimise the customer experience.</p>",
+      "button": {
+        "title": "Learn more",
+        "url": "/services"
+      }
+    }
+  ]
+}

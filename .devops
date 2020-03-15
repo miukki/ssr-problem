@@ -1,0 +1,179 @@
+#DOMAIN ADD A record
+simplimate.com.au
+A 
+
+#CHOSE INSTANCE
+Ubuntu 18.04 TLS + t3.large + 100 Gb SSD
+
+#AMI ID
+ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20200112 (ami-02a599eb01e3b3c5b)
+
+
+#CONNECT TO EC2
+chmod 400 simplimate.pem
+ssh -i "simplimate.pem" ubuntu@ec2-13-238-201-100.ap-southeast-2.compute.amazonaws.com
+ssh -i "simplimate.pem" ubuntu@www.simplimate.com.au 
+
+
+#INSTALL NGINX
+sudo apt update
+sudo apt install nginx
+
+```
+if you install nginx we will have : 
+ /etc/nginx/sites-enabled
+
+```
+
+#CERTS GENERATING BY USING CERTBOT
+```
+
+sudo apt-get update
+sudo apt-get install -y software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+
+sudo apt-get install -y certbot python-certbot-nginx
+
+sudo certbot --nginx
+```
+
+#CERTS TEST
+https://www.ssllabs.com/ssltest/analyze.html?d=simplimate.com.au&latest
+
+
+#PATHS CERTS
+
+Default 
+
+- Congratulations! Your certificate and chain have been saved at:
+   /etc/letsencrypt/live/simplimate.com.au/fullchain.pem
+   Your key file has been saved at:
+   /etc/letsencrypt/live/simplimate.com.au/privkey.pem
+   Your cert will expire on 2020-05-30. To obtain a new or tweaked
+   version of this certificate in the future, simply run certbot again
+   with the "certonly" option. To non-interactively renew *all* of
+   your certificates, run "certbot renew"
+ - Your account credentials have been saved in your Certbot
+   configuration directory at /etc/letsencrypt. You should make a
+   secure backup of this folder now. This configuration directory will
+   also contain certificates and private keys obtained by Certbot so
+   making regular backups of this folder is ideal.
+ - If you like Certbot, please consider supporting our work by:
+
+
+
+
+#SETUP DEFAULT CONFIG NGINX
+sudo vim /etc/nginx/sites-available/default
+
+server {
+  listen 80;
+  listen [::]:80;
+  server_name simplimate.com.au;
+  return 301 https://$server_name$request_uri;
+}
+
+server {
+  listen 443 ssl;
+  listen [::]:443 ssl;
+  server_name simplimate.com.au;
+
+  ssl on;
+  ssl_certificate /etc/letsencrypt/live/simplimate.com.au/fullchain.pem; # managed by Certbot
+  ssl_certificate_key /etc/letsencrypt/live/simplimate.com.au/privkey.pem; # managed by Certbot
+  include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+  ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+  access_log /var/log/nginx/access.log;
+  error_log /var/log/nginx/error.log;
+
+  location / {
+    proxy_pass http://127.0.0.1:3000/;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_http_version 1.1;
+    proxy_set_header Upgrade $http_upgrade;
+    proxy_set_header Connection "upgrade";
+    proxy_read_timeout 900s;
+  }
+
+}
+
+
+#DEFAULT CONFIG MUST EXIST in to paths /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+#RESTART NGINX
+sudo systemctl restart nginx
+
+#SETUP www-data
+```
+sudo usermod --shell /bin/bash www-data
+sudo chown www-data:www-data /var/www
+sudo su - www-data
+ssh-keygen
+```
+
+#INSTALL NVM, YARN
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+vi ~/.bash_profile
+
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+then reopen terminal 
+```
+ubuntu@ip-172-31-3-235:~$ sudo su - www-data
+```
+
+nvm install stable
+npm install --global yarn
+
+```
+#CLONE PROJECT
+sudo su - www-data
+git clone repo
+yarn install
+
+#FIX LINE WEBPACK FOR HTTPS
+Project install
+vi node_modules/react-dev-utils/webpackHotDevClient.js
+61 line
+protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',
+
+#ENV CONFIGURATION 
+CREATE .env
+vi ./server/.env
+
+#RUN DOCKER
+```
+ubuntu@ip:~$ sudo apt-get update
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
+# MANAGE DOCKER USER GROUP (to run Docker without sudo)
+source https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
+
+```
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+sudo su - www-data # su -s ${USER}
+docker run hello-world
+```
+
+#CLEAN DOCKER
+```
+https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+```
+
+
+

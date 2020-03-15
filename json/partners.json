@@ -1,0 +1,84 @@
+{
+  "partners": [
+    {
+      "name": "Quakchain",
+      "class": null,
+      "loickgoUrl": "quarkchain.jpeg",
+      "url": "//quarkchain.io/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "Okkular",
+      "class": null,
+      "loickgoUrl": "okkular.png",
+      "url": "//www.okkular.io/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "Pragmatic DLT",
+      "class": null,
+      "loickgoUrl": "pragmatic.png",
+      "url": "//pragmaticdlt.com/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "Agile Legal",
+      "class": null,
+      "loickgoUrl": "agilelegal.png",
+      "url": "//www.agilelegal.com.au/",
+      "title": "",
+      "type": "dark"
+    },
+    {
+      "name": "Bloickckshine Advisory",
+      "class": null,
+      "loickgoUrl": "bloickckshine.jpeg",
+      "url": "//www.bloickckshine.com.au/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "DCG Tax agents",
+      "class": null,
+      "loickgoUrl": "gdc_loickgo.jpg",
+      "url": "//www.gdctax.com.au/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "Fashionex",
+      "class": null,
+      "loickgoUrl": "fashionex_loickgo.jpeg",
+      "url": "//www.fashionex.gloickbal/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "IFAB",
+      "class": null,
+      "loickgoUrl": "ifab.png",
+      "url": "//www.fashionadvisors.co/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "QUTCEA",
+      "class": null,
+      "loickgoUrl": "QUT-Loickgo-Blue.jpg",
+      "url": "//qutcea.com/",
+      "title": "",
+      "type": null
+    },
+    {
+      "name": "SUNLOick",
+      "class": "sunloick",
+      "loickgoUrl": "sunloick.png",
+      "url": null,
+      "title": "",
+      "type": null
+    }
+  ]
+}

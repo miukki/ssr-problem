@@ -1,0 +1,43 @@
+Run package manager
+```
+yarn
+```
+
+Run container
+```
+docker stop $(docker ps -a -q)
+docker build -t simplimate .
+docker run -d -p 3000:3000 simplimate:latest
+```
+
+Go to container
+```
+docker exec -it <id> bash
+```
+
+By using docker-compose
+```
+docker-compose build
+docker-compose up -d
+```
+
+Check that project is running
+```
+lsof -i :3000
+```
+
+Stop all containers
+```
+docker-compose down #or
+docker stop $(docker ps -a -q)
+```
+Using tools.sh
+Clean all
+sh tools.sh removeAllFromDocker
+
+Rebuild
+sh tools.sh rebuildEnvironment
+
+
+
+

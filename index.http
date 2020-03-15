@@ -1,0 +1,7 @@
+@API = http://localhost:3000
+
+POST {{API}}/api/data
+Content-Type: application/json
+
+{"types":["header","stories","footer","aboutus","projects","members","articles","social"]}
+

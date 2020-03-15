@@ -1,0 +1,38 @@
+{
+  "footerCopyright": {
+    "html": "Copyright Simplimate Limited 2020",
+    "contact": "Contact Us <br/>enquiries@simplimate.com.au"
+  },
+
+  "footerMenu": [
+    {
+      "title": "Services",
+      "url": "/services",
+      "submenu": [
+        {
+          "sub": "Digital Process Automation",
+          "url": "/services"
+        },
+        {
+          "sub": "Centre of Excellence",
+          "url": "/services"
+        },
+        { "sub": "Robotic Automation", "url": "/services" }
+      ]
+    },
+    {
+      "title": "Company",
+      "url": "/company",
+      "submenu": [
+        {
+          "sub": "About Us",
+          "url": "/about"
+        },
+        {
+          "sub": "Contact Us",
+          "url": "/contactus"
+        }
+      ]
+    }
+  ]
+}

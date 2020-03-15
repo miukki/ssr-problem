@@ -1,0 +1,62 @@
+{
+  "services": {
+    "banner": {
+      "slogan": "Services",
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "80%"
+    },
+    "articles": [
+      {
+        "textAlign": "center",
+        "title": "Our Approach",
+        "subtitle": null,
+        "buttons": [],
+        "img": null,
+        "html": "<p>If&nbsp;you don’t&nbsp;embrace some degree of&nbsp;digital transformation, you’re&nbsp;guaranteed to&nbsp;be&nbsp;left behind as&nbsp;every digital experience a&nbsp;customer has today raises the bar.</p><p>To&nbsp;achieve great outcomes you need commitment, passion, great people with industry leading experience. We’ve&nbsp;developed, designed and implemented digital transformation strategies at&nbsp;some of&nbsp;the largest organisations in&nbsp;Australia. Having gained a&nbsp;unique set of&nbsp;skills, we&nbsp;can bring this design and delivery methodology to&nbsp;your company and see it&nbsp;through to&nbsp;the end.</p><p>We’re&nbsp;not about adding another tool, another program, another process, rather about creating a&nbsp;<nobr>customer-first</nobr> mindset through smart digital automation capabilities & a&nbsp;clear implementation roadmap.</p>",
+        "direction": "row"
+      },
+      {
+        "title": "Digital Process Automation",
+        "subtitle": null,
+        "buttons": [
+          {
+            "title": "Contact us",
+            "url": "/contactus",
+            "style": "primary"
+          }
+        ],
+        "img": "/static/images/services/creative-brain-storm.jpg",
+        "html": "<p>Our rapid light-touch approach focuses on delivering outcomes fast! In partnership with businesses we develop a pragmatic and functional digital transformation strategy while building internal capability so we can get out sooner and let you get back to business.</p><p><strong>Company health report.</strong> A thorough assessment of the current company&rsquo;s landscape in relation to:</p><ul><li>Digital readiness</li><li>Comparison against the market and industry best practice.</li><li>Technology architecture assessment to determine if the current technology investment is optimised. Review of systems, data models, integrations, customer experience, audit and compliance).</li></ul><p><strong>Digital transformation strategy</strong>. A comprehensive plan which outlines how the company can transform their processes, people, technology, &amp; culture. A prioritised roadmap and sequence delivery plan that will deliver short and long term objectives while deliver outcomes fast.</p><p><strong>Prioritised backlog of initiatives</strong>. Simplimate can assess and compile a list of initiatives and projects which will deliver the greatest returns for the organisation.</p><p><strong>Complete full-service offering.</strong> Everything in the previous points plus embedding experienced thought leadership roles with delivery resources to achieve awesome outcomes.</p>",
+        "direction": "row"
+      },
+      {
+        "title": "Digital Centre of Excellence",
+        "subtitle": null,
+        "buttons": [
+          {
+            "title": "Contact us",
+            "url": "/contactus",
+            "style": "primary"
+          }
+        ],
+        "img": "/static/images/services/kari-shea-apcUIqOPEIo-unsplash.jpg",
+        "html": "<p>Set up a digital centre of excellence and innovation practice. Our approach develops internal thought leadership, best practice design, internal training program, and support capabilities</p><ul><li>Establish an initiative demand and qualification capability to identify and prioritise automation opportunities</li><li>Establish solution design best practices and project artefacts / documentation for maintainability &amp; maximum reusability.</li><li>Establishing a Pega practice &amp; Pega CoE.&nbsp;</li><li>Establish Agile ways of working practices&nbsp;</li><li>Ongoing capability development</li></ul>",
+        "direction": "row-reverse"
+      },
+      {
+        "title": "Robotic Automation",
+        "subtitle": null,
+        "buttons": [
+          {
+            "title": "Contact us",
+            "url": "/contactus",
+            "style": "primary"
+          }
+        ],
+        "img": "/static/images/services/stephen-dawson-qwtCeJ5cLYs-unsplash.jpg",
+        "html": "<p>Leverage leading robotic capabilities to develop integrated solutions across any applications within the organisation.</p><p>This seamless unified capability between your automation services and robotics starts to unlock the true potential of data reuse and rich business rules to fully optimise the customer experience.</p><ul><li>Establish and embed a holistic solution design methodology leveraging the entire set of capabilities.</li><li>Provide training and insights in to which business use cases are best suited for automation.</li><li>Provide best practice principles for robotic automation to ensure asset reuse, build for reuse design abstraction, and supporting components for enterprise scaling (auto, logging, UI/UX, implementation, and change).</li></ul>",
+        "direction": "row"
+      }
+    ]
+  }
+}

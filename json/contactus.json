@@ -1,0 +1,18 @@
+{
+  "banner": {
+    "slogan": "Contact Us",
+    "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+    "brightness": "80%"
+  },
+  "contacts": {
+    "title": "",
+    "subtitle": "Connect with us",
+    "html": "<p>For support or&nbsp;any questions:</p><p><b>Email</b><br /><a href=\"mailto:enquiries@simplimate.com.au\">enquiries@simplimate.com.au</a></p><p><b>Phone</b><br />+61&nbsp;422&nbsp;008&nbsp;166</p><p><b>Social</b><br />Check us&nbsp;out on&nbsp;LinkedIn</p><p><b>Location</b><br />We&nbsp;are based in&nbsp;Melbourne,<br/>Victoria, 3000<br />Australia</p>"
+  },
+  "title": "Contact Us",
+  "subtitle": "&laquo;Our mission is&nbsp;to&nbsp;bring businesses and customers together<br/>through our smart digital ‘<nobr>automation-first</nobr>’ approach&raquo;",
+  "html": "<p>Simplimate was founded with a simple idea; the digital automation strategy principles that we’ve developed. Simplimate was founded with a&nbsp;simple idea; the digital automation strategy principles that we’ve&nbsp;developed.</p>",
+  "buttons": [],
+  "img": "/static/images/articles/austin-distel-wD1LRb9OeEo-unsplash.jpg",
+  "direction": "row"
+}

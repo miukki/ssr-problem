@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "title": "Services",
+      "url": "/services"
+    },
+    {
+      "title": "Pricing",
+      "url": "/pricing"
+    },
+    {
+      "title": "Resources",
+      "url": "/services"
+    },
+    {
+      "title": "About Us",
+      "url": "/about"
+    },
+    {
+      "title": "Get Started",
+      "url": "/contactus",
+      "type": "primary"
+    }
+  ]
+}

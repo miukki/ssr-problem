@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "title": "Simplimate's RPA Robots for Hire",
+      "description": "Golden Homes manage all construction projects through Flowingly, delivering enhanced business visibility.",
+      "urlImg": "",
+      "link": "/services"
+    },
+    {
+      "title": "Second One",
+      "description": "Golden Homes manage all construction projects through Flowingly.",
+      "urlImg": "",
+      "link": "/one"
+    }
+  ]
+}

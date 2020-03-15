@@ -1,0 +1,111 @@
+{
+  "summary": {
+    "title": "There has never been a greater need for investment in digital automation than now.",
+    "subtitle": "Over the last 25 years we have led transformation programs at some of Australia’s largest corporations. Digital process automation is the key to driving & achieving critical business objectives.",
+    "buttons": [],
+    "img": null,
+    "html": null,
+    "direction": "row",
+    "cards": [
+      {
+        "title": "Global economy downturn",
+        "description": "<p>When the global economy is&nbsp;subdued, this is&nbsp;the exact time to&nbsp;invest in&nbsp;digital process automation to&nbsp;take advantage of&nbsp;opportunities</p>"
+      },
+      {
+        "title": "Get cost out of the organisation",
+        "description": "<p>In&nbsp;a&nbsp;challenging & disruptive sales landscape the need to&nbsp;optimise the customer experience & business operations has never been more urgent.</p>"
+      },
+      {
+        "title": "Lead digital customer experiences",
+        "description": "<p>When you standardise your data and embed an&nbsp;<nobr>automation-first</nobr> culture, the results are improved service, lower costs, and increased transparency.</p>"
+      },
+      {
+        "title": "Get control of your business",
+        "description": "<p>Regain control of&nbsp;your company through <nobr>end-to-end</nobr> visibility, rich analytics and reporting capability and audit/compliance.</p>"
+      }
+    ]
+  },
+  "introOne": {
+    "subtitle": null,
+    "title": "Keep your customers happy and your business processes simple",
+    "buttons": [
+      {
+        "title": "Learn more",
+        "url": "/services"
+      }
+    ],
+    "img": "/static/images/articles/girl.png",
+    "html": "<p>Your customers deserve light touch processes with minimal repetition, human interaction and effort.</p><p>You need to&nbsp;provide experiences that reduce the effort for your customers and users. Remove the stress and minimise the thought process, and automate the outcomes.</p>",
+    "direction": "row"
+  },
+  "introTwo": {
+    "subtitle": null,
+    "title": "If there is data available, don’t ask for it",
+    "buttons": [
+      {
+        "title": "Learn more",
+        "url": "/services"
+      }
+    ],
+    "img": "/static/images/articles/eye.png",
+    "html": "<p>Data is&nbsp;at&nbsp;the core of&nbsp;your business. It&nbsp;drives processes, decisions and outcomes, and your customer trust you with theirs. Learn how to&nbsp;maximise the value of&nbsp;data and structure your data models more efficiently</p>",
+    "direction": "row-reverse"
+  },
+  "introThree": {
+    "subtitle": null,
+    "title": "Build a digital automation strategy for the future",
+    "buttons": [
+      {
+        "title": "Get started",
+        "url": "/contactus",
+        "style": "blue"
+      },
+      {
+        "title": "Ask for a demo",
+        "url": "/contactus"
+      }
+    ],
+    "img": "/static/images/articles/stones.png",
+    "html": "<p>Your customers deserve light touch processes with minimal repetition, human interaction and effort.</p><p>You need to&nbsp;provide experiences that reduce the effort for your customers and users. Remove the stress and minimise the thought process, and automate the outcomes.</p>",
+    "direction": "row"
+  },
+
+  "about": {
+    "subtitle": "Our mission is&nbsp;to&nbsp;bring businesses and customers together<br/>through our smart digital ‘<nobr>automation-first</nobr>’ approach.",
+    "banner": {
+      "slogan": "About Us",
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "80%"
+    },
+    "title": "We’re a colourful and passionate team",
+    "buttons": [],
+    "img": null,
+    "html": "<p>Simplimate was founded with a&nbsp;simple idea; the digital automation strategy principles that we’ve&nbsp;developed and implemented in&nbsp;large organisations could be&nbsp;translated & applied to&nbsp;any business in&nbsp;any sector, government or&nbsp;private. With a&nbsp;combined 35 years experience, we’ve&nbsp;successfully developed, designed and implemented digital transformation strategies for hundreds of&nbsp;business processes and thousands of&nbsp;users.</p><p>Starting such a&nbsp;transformation journey is&nbsp;difficult; there are pitfalls and expensive mistakes that companies really can’t&nbsp;afford to&nbsp;make; even with big budgets and skilled resources many projects fail to&nbsp;deliver on&nbsp;the promise of&nbsp;automation.</p><p><b>We&nbsp;knew there was a&nbsp;better way.</b> We’ve&nbsp;refined our approach and developed a&nbsp;rapid <nobr>light-touch</nobr> methodology that focuses on&nbsp;delivering outcomes sooner, one that works with businesses to&nbsp;get outcomes all whilst building internal capability so&nbsp;we&nbsp;can get out sooner and let companies get back to&nbsp;business.</p><p>Simplimate is&nbsp;not about adding another tool, another program, another process, it’s&nbsp;about creating a&nbsp;culture of&nbsp;rapid improvement with an&nbsp;‘automation first‘ mindset. Ultimately it&rsquo;s about people working together effectively to&nbsp;deliver better experiences for customers.</p>",
+    "direction": "row"
+  },
+  "pricing": {
+    "textAlign": "center",
+    "subtitle": "We&nbsp;can tailor a&nbsp;pricing plan that meets your needs.<br />To&nbsp;discuss pricing with our team, contact us&nbsp;below and we’ll&nbsp;reach out to&nbsp;you shortly.",
+    "banner": {
+      "slogan": "Pricing",
+      "url": "/static/images/stories/franck-v-rDxP1tF3CmA-unsplash.jpg",
+      "brightness": "80%"
+    },
+    "title": "Everyone is unique",
+    "buttons": [],
+    "img": null,
+    "html": null,
+    "direction": "row"
+  },
+  "sales": {
+    "title": "Product services ",
+    "bodyUrl": "/md/articles.services.1.md",
+    "buttons": [
+      {
+        "title": "Contact us",
+        "url": "/contact",
+        "style": "primary"
+      }
+    ]
+  }
+}
